@@ -46,6 +46,70 @@ const LeftBar = () => {
             <span>Memories</span>
           </div>
         </div>
+        <hr />
+        <div className="menu">
+          <span>Your Shortcuts</span>
+          <div className="item">
+            <img src={Events} alt="" />
+            <span>Friends</span>
+          </div>
+          <div className="item">
+            <img src={Gaming} alt="" />
+            <span>Groups</span>
+          </div>
+          <div className="item">
+            <img src={Gallery} alt="" />
+            <span>Marketplace</span>
+          </div>
+          <div className="item">
+            <img src={Videos} alt="" />
+            <span>Watch</span>
+          </div>
+          <div className="item">
+            <img src={Messages} alt="" />
+            <span>Memories</span>
+          </div>
+        </div>
+        <hr />
+        <div className="menu">
+          <span>Others</span>
+          <div className="item">
+            <img src={Tutorials} alt="" />
+            <span>Friends</span>
+          </div>
+          <div className="item">
+            <img src={Courses} alt="" />
+            <span>Groups</span>
+          </div>
+          <div className="item">
+            <img src={Fund} alt="" />
+            <span>Marketplace</span>
+          </div>
+          <div className="item">
+            <img src={Fund} alt="" />
+            <span>Marketplace</span>
+          </div>
+          <div className="item">
+            <img src={Fund} alt="" />
+            <span>Marketplace</span>
+          </div>
+          <div className="item">
+            <img src={Fund} alt="" />
+            <span>Marketplace</span>
+          </div>
+          <div className="item">
+            <img src={Fund} alt="" />
+            <span>Marketplace</span>
+          </div>
+          <div className="item">
+            <img src={Fund} alt="" />
+            <span>Marketplace</span>
+          </div>
+          <div className="item">
+            <img src={Fund} alt="" />
+            <span>Marketplace</span>
+          </div>
+        </div>
       </div>
     </div>
   );
