@@ -12,12 +12,13 @@ import {
   Outlet,
   Navigate,
 } from "react-router-dom";
+import './style.scss';
 
 const currentUser = true;
 
 const Layout = () => {
   return (
-    <div>
+    <div className="theme-dark">
       <NavBar />
       <div style={{ display: "flex" }}>
         <LeftBar />
