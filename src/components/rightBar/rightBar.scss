@@ -16,6 +16,7 @@
       -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
       box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
       padding: 20px;
+      margin-bottom: 20px;
       span {
         color: grey;
       }
@@ -28,11 +29,24 @@
           display: flex;
           align-items: center;
           gap: 10px;
+          position: relative;
           img {
             width: 40px;
             height: 40px;
             border-radius: 50%;
             object-fit: cover;
+          }
+          .online{
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: limegreen;
+            position: absolute;
+            top: 0;
+            left: 30px;
+          }
+          p {
+            color: grey;
           }
           span {
             font-weight: 500;
@@ -40,23 +54,22 @@
           }
         }
       }
-    }
+      .buttons {
+        display: flex;
+        align-items: center;
+        gap: 10px;
 
-    .buttons {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-
-      button {
-        border: none;
-        cursor: pointer;
-        color: white;
-        padding: 5px;
-        &:first-child {
-          background-color: #5271ff;
-        }
-        &:last-child {
-          background-color: #f0544f;
+        button {
+          border: none;
+          cursor: pointer;
+          color: white;
+          padding: 5px;
+          &:first-child {
+            background-color: #5271ff;
+          }
+          &:last-child {
+            background-color: #f0544f;
+          }
         }
       }
     }
