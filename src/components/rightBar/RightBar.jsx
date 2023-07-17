@@ -18,7 +18,7 @@ const RightBar = () => {
               <button>follow</button>
               <button>dismiss</button>
             </div>
-          </div> 
+          </div>
           <div className="user">
             <div className="user-info">
               <img
