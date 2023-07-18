@@ -8,11 +8,8 @@ const RightBar = () => {
           <span>Suggestions For You</span>
           <div className="user">
             <div className="user-info">
-              <img
-                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600"
-                alt="mensprofile"
-              />
-              <span>John sena</span>
+              <img src="http://surl.li/jevnf" alt="mensprofile" />
+              <span>ms dhoni</span>
             </div>
             <div className="buttons">
               <button>follow</button>
@@ -21,11 +18,8 @@ const RightBar = () => {
           </div>
           <div className="user">
             <div className="user-info">
-              <img
-                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600"
-                alt="mensprofile"
-              />
-              <span>John sena</span>
+              <img src="http://surl.li/jevou" alt="mensprofile" />
+              <span>Sunil Chhetri</span>
             </div>
             <div className="buttons">
               <button>follow</button>
@@ -38,11 +32,11 @@ const RightBar = () => {
           <div className="user">
             <div className="user-info">
               <img
-                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="http://surl.li/jevnf"
                 alt="mensprofile"
               />
               <p>
-                <span>John sena</span> liked your post
+                <span>ms dhoni</span> liked your post
               </p>
             </div>
             <span>1 min ago</span>
@@ -74,11 +68,11 @@ const RightBar = () => {
           <div className="user">
             <div className="user-info">
               <img
-                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="http://surl.li/jevou"
                 alt="mensprofile"
               />
               <p>
-                <span>John sena</span> changed profile picture
+                <span>Sunil Chhetri</span> changed profile picture
               </p>
             </div>
             <span>1 min ago</span>

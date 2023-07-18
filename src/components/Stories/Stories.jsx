@@ -9,18 +9,18 @@ const Stories = () => {
   const stories = [
     {
       id: 1,
-      name: "John Doe",
-      img: "https://images.pexels.com/photos/13916254/pexels-photo-13916254.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+      name: "Sunil Chhetri",
+      img: "http://surl.li/jevou"
     },
     {
       id: 2,
-      name: "John Doe",
-      img: "https://images.pexels.com/photos/13916254/pexels-photo-13916254.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+      name: "gobi manchurian",
+      img: "http://surl.li/jevnu",
     },
     {
       id: 3,
-      name: "John Doe",
-      img: "https://images.pexels.com/photos/13916254/pexels-photo-13916254.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+      name: "mysore dasara",
+      img: "http://surl.li/jevqc",
     },
     {
       id: 4,
