@@ -10,9 +10,9 @@ export const AuthContextProvider = ({ children }) => {
   const login = () => {
     setCurrentUser({
       id: 1,
-      name: "Pratap Hangodi",
+      name: "ms dhoni",
       profilePicture:
-        "https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW-2TYmSnW5E5IL_3M34U8f8wLyy1ycPeklg&usqp=CAU",
     });
   };
 
