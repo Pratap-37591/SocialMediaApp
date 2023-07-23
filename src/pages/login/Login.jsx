@@ -26,6 +26,8 @@ const Login = () => {
     }
   };
 
+  console.log(err);
+
   return (
     <div className="login">
       <div className="card">
