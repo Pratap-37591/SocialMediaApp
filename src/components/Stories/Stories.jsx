@@ -32,7 +32,7 @@ const Stories = () => {
   return (
     <div className="stories">
       <div className="story">
-        <img src={currentUser.profilePicture} alt="storyimage" />
+        <img src={currentUser.profilePic} alt="storyimage" />
         <span>{currentUser.name}</span>
         <button>+</button>
       </div>
