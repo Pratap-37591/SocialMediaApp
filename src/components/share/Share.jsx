@@ -2,11 +2,20 @@ import "./share.scss";
 import Image from "../../assets/img.png";
 import Map from "../../assets/map.png";
 import Friend from "../../assets/friend.png";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../context/authContext";
 
 const Share = () => {
+
+  const [file,setFile] = useState(null);
+  const [desc, setDesc] = useState("");
+
   const { currentUser } = useContext(AuthContext);
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    
+  }
   return (
     <div className="share">
       <div className="container">
@@ -14,13 +23,13 @@ const Share = () => {
           <img src={currentUser.profilePic} alt="profile" />
           <input
             type="text"
-            placeholder={`what's on your mind ${currentUser.name}?`}
+            placeholder={`what's on your mind ${currentUser.name}?`} onChange={(e) => setDesc(e.target.value)}
           />
         </div>
         <hr />
         <div className="bottom">
           <div className="left">
-            <input type="file" id="file" style={{ display: "none" }} />
+            <input type="file" id="file" style={{ display: "none" }} onChange={(e)  => setFile(e.target.files[0])} />
             <label htmlFor="file">
               <div className="item">
                 <img src={Image} alt="" />
@@ -37,7 +46,7 @@ const Share = () => {
             </div>
           </div>
           <div className="right">
-            <button>Share</button>
+            <button onClick={handleClick}>Share</button>
           </div>
         </div>
       </div>
