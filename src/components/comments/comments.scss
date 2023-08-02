@@ -23,7 +23,7 @@
         background-color: transparent;
         color: themed("textColor");
       }
-      button{
+      button {
         border: none;
         background-color: #5271ff;
         color: white;
@@ -34,7 +34,7 @@
     }
 
     .comment {
-      margin: 30px 0;
+      margin: 30px 0px;
       display: flex;
       justify-content: space-between;
       gap: 20px;
@@ -50,14 +50,14 @@
         }
 
         p {
-          color: themed(textColor);
+          color: themed(textColorSoft);
         }
       }
       .date {
         flex: 1;
         align-self: center;
-        font-size: small;
         color: gray;
+        font-size: 12px;
       }
     }
   }
