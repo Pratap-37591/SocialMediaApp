@@ -15,22 +15,39 @@
       .top {
         display: flex;
         align-items: center;
-        gap: 20px;
+        justify-content: space-between;
 
-        img {
-          width: 40px;
-          height: 40px;
-          border-radius: 50%;
-          object-fit: cover;
+        .left {
+          display: flex;
+          align-items: center;
+          flex: 3;
+          img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+
+          input {
+            border: none;
+            outline: none;
+            padding: 20px 10px;
+            width: 60%;
+            background-color: transparent;
+            color: themed("textColor");
+          }
         }
 
-        input {
-          border: none;
-          outline: none;
-          padding: 20px 10px;
-          width: 60%;
-          background-color: transparent;
-          color: themed("textColor");
+        .right {
+          flex: 1;
+          display: flex;
+          justify-content: flex-end;
+          .file {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 0;
+          }
         }
       }
 
@@ -68,15 +85,15 @@
           }
         }
 
-        .right{
-            button{
-                border: none;
-                padding: 5px;
-                border-radius: 3px;
-                background-color: #5271ff;
-                color: white;
-                cursor: pointer;
-            }
+        .right {
+          button {
+            border: none;
+            padding: 5px;
+            border-radius: 3px;
+            background-color: #5271ff;
+            color: white;
+            cursor: pointer;
+          }
         }
       }
     }
